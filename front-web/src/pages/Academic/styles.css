@@ -1,0 +1,9 @@
+.academic-container {
+    padding: 10px 10px 60px 10px;
+}
+
+.academic-container h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1rem 0; 
+}

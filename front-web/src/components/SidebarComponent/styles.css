@@ -1,0 +1,17 @@
+.sidebar-component-container {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+}
+
+.sidebar-component-container img {
+    margin: 6px 12px;    
+}
+
+.sidebar-component-container span {
+    color: #263238;
+    font-style: italic;
+    font-size: 0.7rem;
+    text-align: left;
+}

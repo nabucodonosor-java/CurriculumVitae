@@ -1,0 +1,14 @@
+.project-component-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.project-component-stack-list {
+    display: flex;
+    justify-content: left;
+}
+
+.project-component-stack-list img {
+    width: 50%;
+}

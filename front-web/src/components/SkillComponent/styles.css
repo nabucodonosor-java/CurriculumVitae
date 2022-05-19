@@ -1,0 +1,24 @@
+.skill-component-container {
+    padding: 10px;
+}
+.skill-p {
+    border: 1px solid #33b0ee;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.skill-component-sphere {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
+}
+
+.skill-component-container h5 {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.completd-skill {
+    background: #33b0ee;
+}

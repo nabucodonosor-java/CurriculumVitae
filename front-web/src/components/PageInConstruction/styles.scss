@@ -1,0 +1,40 @@
+.div-construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFF;
+}
+
+.div-construction h4 {
+    transform: scale(0.8);
+    transition: 2s;
+    &:hover {
+        transition: 2s;
+        transform: scale(1); 
+    }
+}
+
+.text-goback {
+   
+    transition: 2s;
+    margin: 50px 0;
+
+    &:hover {
+        transition: 2s;
+        transform: scale(1.5); 
+    }
+
+}
+
+.home-img-construction {
+    width: 100%;
+    height: 55vh;
+}
+
+@media(min-width: 1200px) {
+    .home-img-construction {
+        width: 100%;
+        height: 62vh;
+    }
+}

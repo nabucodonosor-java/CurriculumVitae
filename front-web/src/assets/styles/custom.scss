@@ -1,0 +1,19 @@
+$theme-colors: (
+    "primary": #33b0ee,
+    "secondary": #E1E1E1
+);
+
+$body-bg: #F2F2F2;
+$body-color: #263238;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+@media(min-width: 768px) {
+    .routes-container {
+        display: flex;
+    }
+
+    .routes-switch-container {
+        width: 100%;
+    }
+}

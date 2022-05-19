@@ -1,0 +1,17 @@
+.professional-component-container {
+    padding: 10px 10px 60px 10px;
+}
+
+thead {
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+tbody {
+    line-height: 1.2rem;
+}
+
+.professional-component-container h6 {
+    border-bottom: 1px solid #e1e1e1;
+    margin: 20px 0 10px 0;
+}

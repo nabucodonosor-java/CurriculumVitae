@@ -1,0 +1,16 @@
+.academic-component-container {
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.academic-component-double-field {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.academic-component-double-field span {
+    font-size: 0.9rem;
+}
+
