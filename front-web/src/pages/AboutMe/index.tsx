@@ -12,7 +12,7 @@ const AboutMe = () => {
   return (
    <>
     <section className="about-me-container-mobile">
-      <h1>Curriculum Vitae - Franco Sobrinho</h1>
+      <h1>Curriculum Vitae</h1>
       <article className="about-me-photo-mobile base-card">
         <img src={ProfilePhoto} alt="Foto de perfil" />
         <div className="about-me-text-mobile">
