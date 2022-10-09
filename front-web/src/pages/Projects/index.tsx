@@ -32,12 +32,23 @@ const Projects = () => {
     <section className="project-container">
       <h2>Projetos & Estudos</h2>
       <ProjectComponent 
+        title="APProfissionais"
+        projectURL="https://app-mrlit.netlify.app/"
+        index="APProfissionais"
+        githubURL="https://github.com/nabucodonosor-java/APP-Profissionais"
+        description="Sistema consiste em uma API Rest desenvolvida em Java 17 + framework Spring Boot que 
+                    é consumida por um projeto React (biblioteca JS) desenvolvido em TypeScript + HTML/SCSS.
+                    Sistema conta com múltiplos banco de dados e integrações para exportação de arquivos
+                    PDF."
+        stackList={fullStack()}
+      />
+      <ProjectComponent 
         title="DocAdmin"
-        projectURL="https://docadmin-test.netlify.app/admin/hp"
         index="DocAdmin"
         githubURL="https://github.com/nabucodonosor-java/MapinTestsDocAdmin"
         description="Sistema consiste em uma API Rest desenvolvida em Java 11 + framework Spring Boot que 
-                    é consumida por um projeto React (biblioteca JS) desenvolvido em TypeScript + HTML/SCSS."
+                    é consumida por um projeto React (biblioteca JS) desenvolvido em TypeScript + HTML/SCSS.
+                    Banco de dados utilizado foi o Postgres e sistema conta com upload de imagens para AWS."
         stackList={fullStack()}
       />
        <ProjectComponent 
@@ -51,7 +62,6 @@ const Projects = () => {
        <ProjectComponent 
         title="MapinConvert"
         index="MapinConvert"
-        projectURL="https://mapin-converter.netlify.app/"
         githubURL="https://github.com/nabucodonosor-java/MapinCurrancyConverter"
         description="Aplicação desenvolvida em Java 17 com Spring Boot no backend e TypeScript e ReactJS no 
                     frontend que tem a função de fornecer valores convertidos em Real das moedas Dólar, Euro 
@@ -63,10 +73,9 @@ const Projects = () => {
         title="Desafio TQI"
         index="Desafio_TQI"
         githubURL="https://github.com/nabucodonosor-java/tqi_evolution_backend_2021"
-        description="Aplicação consiste de uma ApiRest desenvolvida em Java na versão 11 e utilizando o 
-                    framework Spring Boot. Com relação ao nível de maturidade do padrão REST, segundo o 
-                    Richardson Maturity Model, classifico a API bank-tqi nível 2 pois ela faz o uso eficiente 
-                    de URIs e dos verbos HTTP."
+        description="Desafio - Desenvolver uma ApiRest utilizando Java e o framework Spring Boot com 
+                    nível de maturidade do padrão REST, segundo o Richardson Maturity Model, 
+                    nível 2 pois ela deve fazer o uso eficiente de URIs e dos verbos HTTP."
         stackList={backEnd()}
       />
         <ProjectComponent 
@@ -84,10 +93,7 @@ const Projects = () => {
         projectURL="https://mapin-ai.netlify.app/"
         index="JS_CSS_study"
         githubURL="https://github.com/nabucodonosor-java/JSMatery-GPT3"
-        description="Aplicação consiste de uma ApiRest desenvolvida em Java na versão 11 e utilizando o 
-                    framework Spring Boot. Com relação ao nível de maturidade do padrão REST, segundo o 
-                    Richardson Maturity Model, classifico a API bank-tqi nível 2 pois ela faz o uso eficiente 
-                    de URIs e dos verbos HTTP."
+        description="Webpage desenvolvida com ReactJS e TypeScript."
         stackList={frontEnd()}
       />
     </section>

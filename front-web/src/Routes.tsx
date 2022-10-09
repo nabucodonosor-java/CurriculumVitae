@@ -1,7 +1,6 @@
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
 import PageInConstruction from "components/PageInConstruction";
-import Sidebar from "components/SideBar";
 import AboutMe from "pages/AboutMe";
 import Academic from "pages/Academic";
 import Professional from "pages/Professional";
@@ -13,7 +12,7 @@ const Routes = () => (
   <Router history={history}>
     <Navbar />
     <main className="routes-container">
-      <Sidebar />
+      
       <section className="routes-switch-container">
         <Switch>
           <Route path="/" exact>

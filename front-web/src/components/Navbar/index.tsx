@@ -16,13 +16,13 @@ const Navbar = () => {
                     src={Logo}
                     alt="logo do site"
                     className="navbar-logo" />
-                <h4>Curriculum Vitae</h4>
+                <h4>M@pinVitae</h4>
             </Link>
             <button className="navbar-mobile-btn" type="button" onClick={() => setDrawerActive(!drawerActive)}>
                 <img src={menu} alt="Mobile Menu" />
             </button>
 
-            <div className={drawerActive ? "navbar-mobile-container" : "navbar-menu-container"}>
+            <div className={drawerActive ? "navbar-mobile-container" : "d-none"}>
                 <ul className="navbar-main-menu">
                     <li>
                         <NavLink onClick={() => setDrawerActive(false)} className="navbar-link" to="/" activeClassName="active" exact>HOME</NavLink>

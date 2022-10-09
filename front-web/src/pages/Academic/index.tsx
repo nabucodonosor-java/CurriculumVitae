@@ -9,7 +9,7 @@ const Academic = () => {
             name="Análise e Desenvolvimento de Sistemas"
             level="Bacharelado"
             institute="Uniara"
-            status="Cursando"
+            status="Concluído"
             startDate="Mar/2019"
             completionDate="Jun/2022"
             />
@@ -17,13 +17,14 @@ const Academic = () => {
             name="Administração Pública"
             level="Bacharelado"
             institute="Unesp"
-            status="Trancado"
+            status="Concluído"
             startDate="Mar/2002"
+            completionDate="Dez/2010"
             />
             <AcademicComponent
             name="Téc. em Processamento de Dados"
             level="Técnico"
-            institute="Colégio Objetivo"
+            institute="Senac"
             status="Concluído"
             startDate="Jan/1998"
             completionDate="Dez/2000"
