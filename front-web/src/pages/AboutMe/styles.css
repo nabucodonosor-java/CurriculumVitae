@@ -16,7 +16,7 @@
 }
 
 .about-me-text-mobile h3 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     margin: 10px 0 20px 0;
 }
@@ -44,14 +44,20 @@
     margin: 10px 0;
 }
 
-.about-me-photo-mobile img {
-    margin-right: 5px;
-    max-height: 120px;
-    border-radius: 20px;
+.about-me-container-mobile-photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.photo-img {
+    width: 30%;
+    border-radius: 50%;
 }
 
 .about-me-photo-mobile p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-align: justify;
     letter-spacing: 0.1px;
     line-height: 1rem;

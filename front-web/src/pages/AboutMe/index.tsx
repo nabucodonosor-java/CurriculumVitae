@@ -17,17 +17,22 @@ const AboutMe = () => {
   return (
     <>
       <section className="about-me-container-mobile">
-        <h1>Curriculum Vitae</h1>
+        <div className="about-me-container-mobile-photo">
+          <img src={ProfilePhoto} alt="Foto de perfil" className="photo-img"/>
+          <h1>Franco Sobrinho</h1> 
+        </div>
         <MobileBar />
         <article className="about-me-photo-mobile base-card">
-          <img src={ProfilePhoto} alt="Foto de perfil" />
           <div className="about-me-text-mobile">
             <h3>Sobre mim</h3>
-            <p>Meu nome é Franco sou técnologo em processamento de dados e bacharel em Análise e Desenvolvimento
-              de Sistemas pela Uniara e bacharel em Administração Pública pela Unesp. Estudo a linguagem Java e o
+            <p>Sou técnologo em processamento de dados e bacharel em Análise e Desenvolvimento
+              de Sistemas pela Uniara e bacharel em Administração Pública pela Unesp. <br/><br/>Estudo a linguagem Java e o
               Spring Framework há mais de 2 ano já tendo desenvolvido projetos full stack com Spring e
               ReactJS utilizando as linguagens Java e TypeScript respectivamente para as áreas da saúde e
-              construção civil.
+              construção civil.<br/><br/> Minha principal motivação para os estudos em programação é que entendo
+              que o novo paradigma do mercado de trabalho, independetente da área de atuação, requisitará
+              dos profissionais o pensamento algorítmico, conseguindo assim criar e/ou remodelar padrões
+              e processos.
             </p>
           </div>
         </article>

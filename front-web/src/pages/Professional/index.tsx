@@ -6,12 +6,22 @@ const Professional = () => {
     return (
         <section className="professional-container">
             <h2>Experiências Profissionais</h2>
-            
+            <ProfessionalComponent
+                companyName="Mr. Lit Argamassas"
+                job="Consultor Comercial"
+                toDate="Jun/2022"
+                actualJob="Sim"
+                description="Responsável pela gestão da carteira de São Carlos, Araraquara, Barretos e 
+                suas respectivas microrregiões. Responsável por traçar estratégias de marketing e 
+                canalização de recursos nos pontos de vendas parceiros. Responsável pelo desenvolvimento 
+                de soluções em TI para os stakeholders (profissionais da construção civil e pontos de 
+                vendas) envolvidos nas áreas correlatas aos produtos da empresa."
+            />
             <ProfessionalComponent
                 companyName="Jácomo Ortopedia Técnica"
                 job="Gerente Comercial"
                 toDate="Mai/2018"
-                actualJob="Sim"
+                fromDate='Mai/2022'
                 description="Iniciei sendo responsável por realizar visitas aos médicos das regiões de 
                     Ribeirão Preto e Araraquara/São Carlos. Devido os ótimos resultados fui promovido a 
                     gerente comercial, ficando responsável por todo o setor de propaganda do laboratório 
